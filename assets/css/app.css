@@ -1,185 +1,132 @@
-
-.topbar-responsive {
-<<<<<<< Updated upstream:assets/css/app.css
-    background: #000;
-    padding: 1rem 1.5rem;
-  }
-  
-  .topbar-responsive .topbar-responsive-logo {
-    color: #fefefe;
-    vertical-align: middle;
-  }
-  
-  .topbar-responsive .menu {
-    background: #000;
-  }
-  
-  .topbar-responsive .menu li:last-of-type {
-    margin-right: 0;
-  }
-  
-=======
-  background: #2c3840;
-  padding: 1rem 1.5rem;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+html, body {
+  font-family: 'IBM Plex Sans', sans-serif;
 }
-.body {
-  background: black ;
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: inherit;
 }
-
-.topbar-responsive .topbar-responsive-logo {
-  color: #fefefe;
-  vertical-align: middle;
+.home-section {
+  padding: 12% 48px;
+  background-color: #1A1A1A;
+  color: #EBEBEB;
 }
-
-.topbar-responsive .menu {
-  background: #2c3840;
+.home-section__content {
+  max-width: 1600px;
+  margin: 0 auto;
 }
-
-.topbar-responsive .menu li:last-of-type {
-  margin-right: 0;
+.home-section__heading {
+  margin-bottom: 24px;
 }
-
-.topbar-responsive .menu a {
-  color: #fefefe;
-  transition: color 0.15s ease-in;
+.home-section__heading span {
+  font-weight: 600;
 }
-
-.topbar-responsive .menu a:hover {
-  color: #c6d1d8;
+.home-section__description {
+  margin-bottom: 64px;
+  font-size: 24px;
+  max-width: 960px;
 }
-
-@media screen and (max-width: 39.9375em) {
->>>>>>> Stashed changes:assets/css/custom.css
-  .topbar-responsive .menu a {
-    color: #bbbbbb;
-    transition: color 0.15s ease-in;
-  }
-  
-  .topbar-responsive .menu a.menu-active {
-    color: #FFF;
-  }
-  
-  .topbar-responsive .menu a:hover {
-    color: #c6d1d8;
-  }
-  
-  @media screen and (max-width: 39.9375em) {
-    .topbar-responsive .menu a {
-      padding: 0.875rem 0;
-    }
-  }
-  
-  .topbar-responsive .menu .topbar-responsive-button {
-    color: #fefefe;
-    border-color: #fefefe;
-    border-radius: 5000px;
-    transition: color 0.15s ease-in, border-color 0.15s ease-in;
-  }
-  
-  .topbar-responsive .menu .topbar-responsive-button:hover {
-    color: #c6d1d8;
-    border-color: #c6d1d8;
-  }
-  
-  @media screen and (max-width: 39.9375em) {
-    .topbar-responsive .menu .topbar-responsive-button {
-      width: 100%;
-      margin: 0.875rem 0;
-    }
-  }
-  
-  @media screen and (max-width: 39.9375em) {
-    .topbar-responsive {
-      padding: 0.75rem;
-    }
-    .topbar-responsive .top-bar-title {
-      position: relative;
-      width: 100%;
-    }
-    .topbar-responsive .top-bar-title span {
-      position: absolute;
-      right: 0;
-      border: 1px solid #fefefe;
-      border-radius: 5px;
-      padding: 0.25rem 0.45rem;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-          -ms-transform: translateY(-50%);
-              transform: translateY(-50%);
-    }
-    .topbar-responsive .top-bar-title span .menu-icon {
-      margin-bottom: 4px;
-    }
-  }
-  
-  @-webkit-keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
-  @-webkit-keyframes slideDown {
-    0% {
-      -webkit-transform: translateY(-100%);
-              transform: translateY(-100%);
-    }
-    100% {
-      -webkit-transform: translateY(0%);
-              transform: translateY(0%);
-    }
-  }
-  
-  @keyframes slideDown {
-    0% {
-      -webkit-transform: translateY(-100%);
-              transform: translateY(-100%);
-    }
-    100% {
-      -webkit-transform: translateY(0%);
-              transform: translateY(0%);
-    }
-  }
-  
-  @media screen and (max-width: 39.9375em) {
-    .topbar-responsive-links {
-      -webkit-animation-fill-mode: both;
-              animation-fill-mode: both;
-      -webkit-animation-duration: 0.5s;
-              animation-duration: 0.5s;
-      width: 100%;
-      -webkit-animation: fadeIn 1s ease-in;
-              animation: fadeIn 1s ease-in;
-    }
-  }
-<<<<<<< Updated upstream:assets/css/app.css
-  
-  
-=======
+h1, .h1 {
+  text-transform: uppercase;
+  font-size: 72px;
+  line-height: 1;
+}
+.button {
+  background-color: #EBEBEB;
+  color: #1A1A1A;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.hollow.button {
+  background-color: transparent;
+  border: 1px solid #EBEBEB;
+  color: #EBEBEB;
+}
+.home-section:nth-of-type(even) {
+  background-color: #EBEBEB;
+  color: #1A1A1A;
+}
+.home-section:nth-of-type(even) .home-section__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+.home-section:nth-of-type(even) .hollow.button {
+  border: 1px solid #1a1a1a;
+  color: #1a1a1a;
+}
+.top-bar {
+  padding: 24px 48px;
+  background-color: #EBEBEB;
+  color: #1A1A1A;
+}
+.top-bar ul {
+  background-color: transparent;
+}
+.menu.simple li+li {
+  margin-left: 32px;
+}
+.top-bar a {
+  color: inherit;
+  font-size: 24px;
+}
+.menu-active {
+  font-weight: 600;
+}
+.top-bar__content {
+  max-width: 1600px;
+  flex: 0 1 1600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-icon {
+  margin-right: 24px;
+}
+.menu-icon:after {
+  background: #1a1a1a;
+  -webkit-box-shadow: 0 7px 0 #fefefe, 0 14px 0 #1a1a1a;
+  box-shadow: 0 7px 0 #1a1a1a, 0 14px 0 #1a1a1a;
 }
 
-@media screen and (max-width: 39.9375em) {
-  .topbar-responsive-links {
-    -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-    -webkit-animation-duration: 0.5s;
-            animation-duration: 0.5s;
+/* Later convert this to mobile first (code debt) */
+@media screen and (max-width: 640px) {
+  .top-bar {
+    padding: 24px;
+  }
+  .top-bar-right {
+    position: absolute;
+    top: 100px;
+    left: 0;
     width: 100%;
-    -webkit-animation: fadeIn 1s ease-in;
-            animation: fadeIn 1s ease-in;
+    background: #ebebeb;
+    padding-bottom: 24px;
   }
-
+  .menu.simple li+li {
+    margin-left: 0;
+  }
+  .menu a {
+    margin-bottom: 16px;
+  }
+  .home-section {
+    padding: 48px 24px;
+    background-color: #1A1A1A;
+    color: #EBEBEB;
+  }
+  h1, .h1 {
+    font-size: 48px;
+  }
+  .home-section__description {
+    font-size: 16px;
+    margin-bottom: 48px;
+  }
+  .button {
+    font-size: 16px;
+  }
 }
-
->>>>>>> Stashed changes:assets/css/custom.css
