@@ -10,6 +10,14 @@ h5, .h5,
 h6, .h6 {
   font-family: inherit;
 }
+main {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.about-icon {
+  width: 48px;
+  margin-right: 24px;
+}
 .home-section {
   padding: 12% 48px;
   background-color: #1A1A1A;
@@ -34,6 +42,7 @@ h1, .h1 {
   text-transform: uppercase;
   font-size: 72px;
   line-height: 1;
+  font-weight: 600;
 }
 .button {
   background-color: #EBEBEB;

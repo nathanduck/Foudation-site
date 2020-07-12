@@ -16,90 +16,104 @@
 </head>
 
 <body>
-   <nav class="hover-underline-menu" data-menu-underline-from-center>
-  <ul class="menu align-center">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="Services.html">Services</a></li>
-    <li><a href="Works.html">Works</a></li>
-    <li><a href="Contact.html">Contact</a></li>
-  </ul>
-</nav>
-
-
-
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x">
-      <div class="large-12 cell">
-        <h1>Get in touch with us!</h1>
+  <nav class="top-bar topbar-responsive">
+    <div class="top-bar__content">
+      <div class="top-bar-title">
+        <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle></button>
+        </span>
+        <a class="topbar-responsive-logo" href="index.html"><strong><img src="assets/img/logo.png" alt="logo"
+              width="20px" height="20px"></strong></a>
       </div>
-    </div>
-
-        <h5>Fill out this form to schedule a consoltation:</h5>
-        <form>
-          <div class="grid-x grid-padding-x">
-            <div class="large-12 cell">
-              <label>Full Name</label>
-              <input type="text" placeholder="large-12.cell" />
-            </div>
-          </div>
-          <div class="grid-x grid-padding-x">
-            <div class="large-4 medium-4 cell">
-              <label>Cell phone</label>
-              <input type="text" placeholder="large-4.cell" />
-            </div>
-            <div class="large-4 medium-4 cell">
-              <label>Work Phone</label>
-              <input type="text" placeholder="large-4.cell" />
-            </div>
-            <div class="large-4 medium-4 cell">
-              <div class="grid-x">
-                <label>Email</label>
-                <div class="input-group">
-                  <input type="text" placeholder="small-9.cell" class="input-group-field" />
-                  <span class="input-group-label">.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="grid-x grid-padding-x">
-            <div class="large-12 cell">
-              <label>Type of work needed</label>
-              <select>
-                <option value="husker">Logo Design</option>
-                <option value="starbuck">Advertisement</option>
-                <option value="hotdog">Poster/Graphics</option>
-                <option value="apollo">Page Layouts(Magazines, newspapers, etc.)</option>
-              </select>
-            </div>
-          </div>
-          
-          <div class="grid-x grid-padding-x">
-            <div class="large-12 cell">
-              <label>Short description of what you need designed:</label>
-              <textarea placeholder="small-12.cell"></textarea>
-              <b> Thank you for taking the time to fill out this form, we will review it and reach out to you shortly! </b>
-            </div>
-          </div>
-        </form>
-      </div>
-
-      <div class="large-4 medium-4 cell">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="button">Simple Button</a><br />
-          <a href="#" class="success button">Success Btn</a><br />
-          <a href="#" class="alert button">Alert Btn</a><br />
-          <a href="#" class="secondary button">Secondary Btn</a></p>
-        <div class="callout">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with
-            details on making them your own.</p>
-          <a href="https://foundation.zurb.com/sites/docs/" class="small button">Go to Foundation Docs</a>
+      <div id="topbar-responsive" class="topbar-responsive-links">
+        <div class="top-bar-right">
+          <ul class="menu simple vertical medium-horizontal">
+            <li><a href="index.html" class="menu-active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
       </div>
     </div>
-  </div>
+  </nav>
 
+
+  <main>
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <h1>Get in touch with us!</h1>
+          <h5>Fill out this form to schedule a consoltation:</h5>
+          <h3>Email</h3>
+          <a href="mailto:nathanduck88@gmail.com" target="_blank" style="display: block;">nathanduck88@gmail.com</a>
+          <h3>Phone Number</h3>
+          <a href="tel:9852121439" target="_blank" style="display: block;">985.212.1439</a>
+          <h3>Social Media</h3>
+          <div>
+            <a href="https://instagram.com/ducky3d" target="_blank">
+              <img src="assets/img/instagram.svg" alt="Instagram" class="about-icon">
+            </a>
+            <a href="https://twitter.com/nathanduck88" target="_blank">
+              <img src="assets/img/twitter.svg" alt="Twitter" class="about-icon">
+            </a>
+          </div>
+          <iframe width="600" height="450" frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?q=place_id:Eis3MzMgTGVub3ggUGwsIEdvb2RsZXR0c3ZpbGxlLCBUTiAzNzA3MiwgVVNBIjESLwoUChIJDSy3UmJEZIgRCM29wkhLZTEQ3QUqFAoSCX-xDE5iRGSIETCiYjbV-uZh&key=AIzaSyBdm5jWKgFvNUIlw4BWs06hyenWH5Gn-Y8"
+            allowfullscreen></iframe>
+          <!-- <form>
+            <div class="grid-x grid-padding-x">
+              <div class="large-12 cell">
+                <label>Full Name</label>
+                <input type="text" placeholder="large-12.cell" />
+              </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+              <div class="large-4 medium-4 cell">
+                <label>Cell phone</label>
+                <input type="text" placeholder="large-4.cell" />
+              </div>
+              <div class="large-4 medium-4 cell">
+                <label>Work Phone</label>
+                <input type="text" placeholder="large-4.cell" />
+              </div>
+              <div class="large-4 medium-4 cell">
+                <div class="grid-x">
+                  <label>Email</label>
+                  <div class="input-group">
+                    <input type="text" placeholder="small-9.cell" class="input-group-field" />
+                    <span class="input-group-label">.com</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+              <div class="large-12 cell">
+                <label>Type of work needed</label>
+                <select>
+                  <option value="husker">Logo Design</option>
+                  <option value="starbuck">Advertisement</option>
+                  <option value="hotdog">Poster/Graphics</option>
+                  <option value="apollo">Page Layouts(Magazines, newspapers, etc.)</option>
+                </select>
+              </div>
+            </div>
+    
+            <div class="grid-x grid-padding-x">
+              <div class="large-12 cell">
+                <label>Short description of what you need designed:</label>
+                <textarea placeholder="small-12.cell"></textarea>
+                <b> Thank you for taking the time to fill out this form, we will review it and reach out to you shortly!
+                </b>
+              </div>
+            </div>
+          </form> -->
+        </div>
+      </div>
+
+    </div>
+  </main>
 
   <script src="assets/js/vendor/jquery.js"></script>
   <script src="assets/js/vendor/what-input.js"></script>
